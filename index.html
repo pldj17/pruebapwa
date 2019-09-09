@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<!-- Codificacion de caracteres -->
+	<meta charset="utf-8"/>
+
+	<!-- Titulo de la web -->
+	<title>Curso PWA - Priscila Duarte</title>
+
+	<!-- Viewport responsive -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/> 
+
+	<!-- Icono de la web -->
+	<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+
+	<!-- configuraciones para que el navegador reconozca que esto es una pwa -->
+
+	<!-- color de la aplicacion -->
+	<meta name="theme-color" content="#fb314e"/>
+
+	<!-- optimitacion para movil -->
+	<meta name="MobileOptimized" content="width"/> <!-- indica que la aplicacion esta optimizada a nivel de anchura y a nivel de responsive con cualquier pantalla y dispositivo -->
+
+	<meta name="HandheldFriendly" content="true"/> <!-- Sirve para que el navegador de nuestro dispositivo movil sepa que esto es una pwa y funcione conrrectamente -->
+
+	<!-- meta etiquetas pwa para apple -->
+	<meta name="apple-mobile-web-app-capable" content="yes"/> <!-- seria como activar la pwa-->
+
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+
+	<link rel="apple-touch-icon" href="img/favicon.png"/> <!-- cargar favicon en dispositivos pwa, seria el icono de la app-->
+
+	<link rel="apple-touch-startup-image" href="img/favicon.png"/>
+
+	<!-- Manifiesto - configuracion general de pwa --> 
+	<link rel="manifest" href="manifest.json"/>
+
+	<!-- Hojas de estilos -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+	<!-- JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<!-- scrip -->
+	<script src="js/main.js"></script>
+</head>
+<body>
+	<header id="main-header">
+		<div class="container">
+			<div id="logo">
+				<h1>Priscila Duarte Web</h1>
+			</div>
+			<div id="menu">
+				<ul>
+					<li>
+						<a href="#main-header">
+							Inicio
+						</a>
+					</li>
+					<li>
+						<a href="#servicios">
+							Servicios
+						</a>
+					</li>
+					<li>
+						<a href="#videos">
+							Videos
+						</a>
+					</li>
+					<li>
+						<a href="#networks">
+							Contactos
+						</a>
+					</li>
+				</ul>
+			</div><!-- end menu -->
+		</div><!-- end container -->		
+	</header>
+
+	<div class="clearfix"></div>
+
+	<div id="slider">
+		<div class="container">
+			<h2>Desarrolladora web y profesora</h2>
+		</div>
+	</div>
+
+	<div id="servicios">
+		<div class="container">
+			<h2 class="subheader">Servicios</h2>
+
+			<div class="servicios">
+				<img src="img/1.png">
+				<h3>Desarrollo web</h3>
+				<p>
+					Ofrezco servicios de desarrollo web moderno con las mejores tecnologías y plataformas web.
+				</p>
+			</div>
+			<div class="servicios">
+				<img src="img/2.png">
+				<h3>Diseño web</h3>
+				<p>
+					Diseño de sitios y aplicaciones web moderno, limpio y atractivo para tus clientes.
+				</p>
+			</div>
+			<div class="servicios">
+				<img src="img/3.png">
+				<h3>Mentoría</h3>
+				<p>
+					Puedo ser tu mentora o profesora para enseñarte desarrollo y programación web moderna.
+				</p>
+			</div>
+		</div>
+	</div> <!-- end servicios -->
+
+	<div class="clearfix"></div>
+
+	<div id="videos">
+		<div class="container">
+			<h2 class="subheader">Videos</h2>
+			<div class="video">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/K5D7yA6H4Jw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<p>
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+				</p>
+			</div>
+			<div class="video">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/K5D7yA6H4Jw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<p>
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+				</p>
+			</div>
+			<div class="video">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/K5D7yA6H4Jw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<p>
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+				</p>
+			</div>
+		</div>
+	</div> <!-- end videos -->
+
+	<div class="clearfix"></div>
+
+	<footer>
+		<div class="container">
+			<h2 class="subheader">Contacto</h2>
+			<p>
+				Enviame un mensaje en cualquiera de estas redes sociales :)
+			</p>
+
+			<ul id="networks">
+				<li>
+					<a href="https://twitter.com/pldj17" target="_blank">
+						<img src="img/twitter.png">
+					</a>
+				</li>
+				<li>
+					<a href="https://www.facebook.com/priscila.duarte.75839923" target="_blank">
+						<img src="img/facebook.png">
+					</a>
+				</li>
+				<li>
+					<a href="https://www.instagram.com/pldj01/?hl=es-la" target="_blank">
+						<img src="img/instagram.png">
+					</a>
+				</li>
+			</ul>
+
+		<div class="clearfix"></div>
+
+
+		</div>
+	</footer>
+
+</body>
+</html>
